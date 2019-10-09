@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Media, Container, Row, Col } from 'reactstrap';
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom'
 import firewood from './images/firewood.jpg'
 import sun from './images/sun.jpg'
 import moon from './images/moon.jpg'
@@ -36,6 +37,9 @@ class App extends Component {
               <Media object src={ moon } style={imgStyle} alt={ moon } />
               <Media object src={ seawater } style={imgStyle} alt={ seawater } />
             </Col>
+          </Row>
+          <Row>
+            <Link to="/listing">Listagem de usuários</Link>
           </Row>
         </Container>
       </div>
