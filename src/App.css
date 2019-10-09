@@ -16,6 +16,11 @@
 
 .App-intro {
   font-size: large;
+  padding: 15px;
+}
+
+.List-user {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
